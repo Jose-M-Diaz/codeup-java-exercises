@@ -4,7 +4,7 @@ public class ConsoleExercises {
     public static void main(String[] args) {
         //1.
 //        double pi = 3.14159;
-//        System.out.printf("The value of pi is approximately: %f", pi);
+//        System.out.printf("The value of pi is approximately: %.2f", pi);
 
         //2.
         Scanner in = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class ConsoleExercises {
 //        System.out.printf("You entered:%n%s%n%s%n%s", word1,word2,word3);
 
         //4.
-//        System.out.println("Write out a sentence: "); //next method captures 1st word
+//        System.out.println("Write out a sentence: "); //next method captures 1st word due to white space following
 //        String sentence = in.nextLine();              //nextLine captures the whole sentence
 //        System.out.println(sentence);
 
