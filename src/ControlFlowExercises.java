@@ -11,10 +11,10 @@ public class ControlFlowExercises {
 //        }
 
         //1b.
-//        int i = 105;
+//        int i = 100;
 //        do {
-//            System.out.println(i -= 5);
-//        }while(i > -10);
+//            System.out.println(i);
+//        }while(i >= -10);
 //        long i = 2;
 //        do {
 //            System.out.println(i);
@@ -48,7 +48,7 @@ public class ControlFlowExercises {
 //        int number = sc.nextInt();
 //        System.out.println("Are you sure?[Y/n] ");
 //        String input = sc.next();
-//        boolean confirmation = input.equalsIgnoreCase("y");
+//        boolean confirmation = input.equalsIgnoreCase("Y");
 //        System.out.println("Here is your table!");
 //        System.out.println("Number | Squared | Cubed");
 //        System.out.println("------ | ------- | -----");
