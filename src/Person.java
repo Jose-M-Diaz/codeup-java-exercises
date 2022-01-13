@@ -18,6 +18,10 @@ public class Person {
         System.out.println("Hello, " + this.name);
     }
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     public static void main(String[] args) {
 //        Person bill = new Person();
 //        bill.setName("Bill");
@@ -36,8 +40,8 @@ public class Person {
 //        Person person2 = person1;
 //        System.out.println(person1 == person2); // true
 
-        Person person1 = new Person();
-        person1.setName("John");
+        Person person1 = new Person("john");
+        //person1.setName("John");
         Person person2 = person1;
         System.out.println(person1.getName());
         System.out.println(person2.getName());
