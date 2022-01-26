@@ -29,7 +29,7 @@ public class Input {
     }
 
     public int getInt() {
-        String userInput = getString("Please enter a whole number.");
+        String userInput = getString();
         int userNum;
         try {
             userNum = Integer.valueOf(userInput);
