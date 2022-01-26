@@ -6,7 +6,7 @@ public class HighLow {
         int randomNum = (int) (Math.random() * (100 -1) +1);
         boolean guess = false;
         do {
-            int userNum = MethodExercises.getInteger(1,100);
+            int userNum = MethodsExercises.getInteger(1,100);
             if(userNum == randomNum) {
                 System.out.println("Good guess!");
                 guess = true;
